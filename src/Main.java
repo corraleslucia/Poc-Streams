@@ -8,15 +8,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Persona p1 = new Persona ("Gaston Lazcano", 14, 39170523 );
-        Persona p2 = new Persona ("Lucia Corrales", 29, 35043717 );
-        Persona p3 = new Persona ("Santiago Carrizo", 18, 40546709 );
-        Persona p4 = new Persona ("Julia Roberts", 50, 195246125 );
-        Persona p5 = new Persona ("Federico Bal", 71, 6214587 );
-        Persona p6 = new Persona ("Lujan Sanchez", 6, 32154785 );
-        Persona p7 = new Persona ("Mirta Legrand", 48, 12052478 );
-        Persona p8 = new Persona ("Miguel Perez", 31, 20124587 );
-
         List <Persona> personas = new ArrayList<>();
 
         personas = Arrays.asList(new Persona ("Gaston Lazcano", 14, 39170523 ),
